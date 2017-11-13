@@ -13,6 +13,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
           integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
           crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
   <script type="text/javascript" src="./resources/js/trackster.js"></script>
   <script type="text/javascript" src="./resources/js/tests.js"></script>
 </head>
@@ -25,8 +26,8 @@
           <span>trackster</span>
         </div>
         <div class="col search-bar">
-          <input type="text" name="" value="" placeholder="Whatcha lookin' for?">
-          <span><i class="fa fa-search" aria-hidden="true"></i></span>
+          <input id="search-input" type="text" name="" value="" placeholder="Whatcha lookin' for?">
+          <span id="search-button"><i class="fa fa-search" aria-hidden="true"></i></span>
         </div>
       </div>
     </div>
@@ -50,15 +51,15 @@
         <div class="col-2 attribute">
           Popularity
         </div>
-        <div class="col-2 attribute">
+        <!-- <div class="col-2 attribute">
           Length
-        </div>
+        </div> -->
       </div>
     <!-- </div> -->
   </div>
   <!-- Tracks section -->
-  <div class="container-fluid">
-    <div class="row tracks">
+  <div id="tracks-container" class="container-fluid">
+    <!-- <div class="row tracks">
       <div class="col-1 track d-flex justify-content-between">
         <a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
         <span>1</span>
@@ -78,7 +79,7 @@
       <div class="col-2 track">
         3:56
       </div>
-    </div>
+    </div> -->
   </div>
 </body>
 </html>
