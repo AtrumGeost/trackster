@@ -16,7 +16,7 @@ $(document).ready(function(){
 });
 
 var API_KEY = '9b49f28267ac7323e9f803308948933b';
-var ROOT_URL = 'http://ws.audioscrobbler.com/2.0/'
+var ROOT_URL = 'https://ws.audioscrobbler.com/2.0/'
 
 var Trackster = {};
 
