@@ -1,3 +1,97 @@
 /*
   Custom styles for Trackster App
 */
+
+html {
+  font-family: 'Righteous', cursive;
+  font-size: 16px;
+}
+
+/*Header section*/
+
+header {
+  background-color: rgb(35, 2, 63);
+}
+
+.logo {
+  font-family: 'Righteous', cursive;
+  color: rgb(255, 0, 171);
+  font-size: 2.5rem;
+}
+
+header .row {
+  padding: 30px 0;
+}
+
+.search-bar {
+  margin: auto 0;
+}
+
+.search-bar input {
+  border-radius: 19px;
+  margin-right: 7px;
+  color: rgb(74, 74, 74);
+  padding-left: 10px;
+}
+
+.search-bar input::placeholder {
+  color: rgb(191, 191, 191);
+}
+
+.search-bar span {
+  background-color: rgb(255, 102, 204);
+  color: rgb(35, 2, 63);
+  border-radius: 19px;
+  padding: 6px 20px;
+}
+
+.search-bar span:hover {
+  background-color: rgb(255, 0, 171);
+}
+
+/*Attribute tittle section*/
+
+.title-bar {
+  padding-left: 60px;
+}
+
+.attribute-title {
+  background-color: rgb(104, 0, 255);
+  color: white;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.attribute:first-child {
+  text-align: right;
+  padding-right: 0;
+}
+
+/*Tracks section*/
+
+div.row.tracks {
+  padding-left: 60px;
+}
+
+.tracks {
+
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding: 3px 0;
+}
+
+.tracks:hover {
+  background-color: rgb(239, 237, 242);
+}
+
+.tracks a {
+  color: rgb(255, 0, 171);
+  font-size: 1.5rem;
+}
+
+.track {
+  margin: auto 0;
+}
+
+.track span{
+  margin: auto 0;
+}
